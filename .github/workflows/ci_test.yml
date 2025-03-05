@@ -2,7 +2,7 @@ name: test
 
 on:
   push:
-    branches: [feature]
+    branches: '**'
 
 jobs:
   test:
